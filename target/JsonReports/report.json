@@ -1,0 +1,173 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User is on Automation Practice demo website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1862000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "browser is open",
+            "match": {
+              "location": "StepDef.WebAutomationTask.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3974000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters Automation Practice Demo website URL",
+            "match": {
+              "location": "StepDef.WebAutomationTask.user_enters_automation_practice_demo_website_url()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1999000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on Sign in tab",
+            "match": {
+              "location": "StepDef.WebAutomationTask.user_clicks_on_sign_in_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 181000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters email address and password for a registered user",
+            "match": {
+              "location": "StepDef.WebAutomationTask.user_enters_email_address_and_password_for_a_registered_user()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3924000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on Sign in button",
+            "match": {
+              "location": "StepDef.WebAutomationTask.user_clicks_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is redirected to MyAccount Page",
+            "match": {
+              "location": "StepDef.WebAutomationTask.user_is_redirected_to_my_account_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-19T19:57:34.004Z",
+        "line": 34,
+        "name": "Verify that user is able to update First name on MyAccount Page",
+        "description": "",
+        "id": "feature-to-perform-a-web-automation-task;verify-that-user-is-able-to-update-first-name-on-myaccount-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3183000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user clicks on My Personal Information button",
+            "match": {
+              "location": "StepDef.WebAutomationTask.user_clicks_on_my_personal_information_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user enters new value for First name field",
+            "match": {
+              "location": "StepDef.WebAutomationTask.user_enters_new_value_for_first_name_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1211000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user enters the current password and clicks on save button",
+            "match": {
+              "location": "StepDef.WebAutomationTask.user_enters_the_current_password_and_clicks_on_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "success message is recieved.",
+            "match": {
+              "location": "StepDef.WebAutomationTask.success_message_is_recieved()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 91000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "browser is closed",
+            "match": {
+              "location": "StepDef.WebAutomationTask.browser_is_closed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Scenario2"
+          },
+          {
+            "name": "@MyAccount"
+          }
+        ]
+      }
+    ],
+    "name": "Feature to perform a web automation task",
+    "description": "",
+    "id": "feature-to-perform-a-web-automation-task",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/AutomationPractice.feature",
+    "tags": []
+  }
+]

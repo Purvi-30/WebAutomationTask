@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="16.894">
+<testcase classname="Feature to perform a web automation task" name="Verify that user is able to update First name on MyAccount Page" time="16.741">
+<system-out><![CDATA[Given browser is open.......................................................passed
+And user enters Automation Practice Demo website URL........................passed
+When user clicks on Sign in tab.............................................passed
+And user enters email address and password for a registered user............passed
+And user clicks on Sign in button...........................................passed
+Then user is redirected to MyAccount Page...................................passed
+And user clicks on My Personal Information button...........................passed
+When user enters new value for First name field.............................passed
+And user enters the current password and clicks on save button..............passed
+Then success message is recieved............................................passed
+And browser is closed.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
